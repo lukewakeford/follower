@@ -1,0 +1,38 @@
+name: follower
+targets:
+  follower-tests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: 11.0
+    sources:
+      - path: tests
+      - path: app/model
+    settings:
+      base:
+        TEST_TARGET_NAME: follower
+  follower:
+    scheme:
+      testTargets:
+        - follower-tests
+    type: application
+    platform: iOS
+    deploymentTarget: 11.0
+    settings:
+      base:
+        SWIFT_VERSION: 5.0
+        TARGETED_DEVICE_FAMILY: 1
+        PRODUCT_NAME: follower
+        PRODUCT_BUNDLE_IDENTIFIER: uk.co.lukewakeford.follower
+    info:
+      path: App.plist
+      properties:
+        UILaunchStoryboardName: Launch Screen
+        NSLocationAlwaysUsageDescription: Your location will be used to show you where you've been and give you some nice stats
+        NSLocationAlwaysAndWhenInUseUsageDescription: Your location will be used to show you where you've been and give you some nice stats
+        NSLocationWhenInUseUsageDescription: Your location will be used to show you where you've been and give you some nice stats
+        UIRequiredDeviceCapabilities:
+          - armv7
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+    sources:
+      - path: app
