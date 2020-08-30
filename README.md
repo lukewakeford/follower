@@ -4,7 +4,7 @@
 
 ## Installation
 
-**follower** uses xcodegen to generate it's .xcodeproj
+**follower** uses [xcodegen](https://github.com/yonaskolb/XcodeGen) to generate it's .xcodeproj
 
 After installing xcodegen move to the project directory and run `xcodegen`
 
