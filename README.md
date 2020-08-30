@@ -36,14 +36,14 @@ To manually test **follower**
 2. Select a test device
 3. Hit build and run `cmd + r`
 4. When prompted accept location permissions
-5. Simulate location change using simulators `Debug > Location > Freeway Drive`
+5. To simulate location using simulator navigate to `Debug > Location > Freeway Drive`
 6. Tap 'Start Following' to start the tracking
-7. Tapping 'Stop Following' stops tracking and focus on the route with start and end markers.
+7. Tapping 'Stop Following' stops tracking and focuses on the route with start and end markers.
 8. Tapping on 'View Stats' opens the stats view containing total distance, duration and average speed.
-9. Tapping 'Clear Session' removes all store locations and map overlays
+9. Tapping 'Clear Session' removes all stored locations and map overlays
 10. When open, the stats view updates every second.
 
-*Note: data does not currently persist across app lifecylces, quitting the app will lose you session data.*
+*Note: data does not currently persist across app lifecylces, quitting the app will lose your session data.*
 
 ## Automated Testing
 
