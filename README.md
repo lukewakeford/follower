@@ -2,6 +2,8 @@
 
 **follower** is a basic MapKit app written in Swift for following a users location and showing some stats
 
+<img src="https://i.imgur.com/lNT9H5j.png" width="200"> <img src="https://imgur.com/JpPKxkz.png" width="200">
+
 ## Installation
 
 **follower** uses [xcodegen](https://github.com/yonaskolb/XcodeGen) to generate it's .xcodeproj
